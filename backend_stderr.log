@@ -1,0 +1,225 @@
+INFO:     Will watch for changes in these directories: ['E:\\python源代码\\ai-interview-agent-聂金鹏']
+INFO:     Loading environment from '.env'
+INFO:     Uvicorn running on http://0.0.0.0:8006 (Press CTRL+C to quit)
+INFO:     Started reloader process [71916] using WatchFiles
+INFO:     Started server process [61368]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+(trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "E:\python\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+API异常: 400 - 10000 - 邮箱或密码错误
+API异常: 400 - 10000 - 邮箱或密码错误
+API异常: 400 - 10000 - 邮箱或密码错误
+API异常: 400 - 10000 - 邮箱或密码错误
+API异常: 400 - 10000 - 邮箱或密码错误
+API异常: 400 - 10000 - 邮箱或密码错误
+API异常: 400 - 10000 - 邮箱或密码错误
+参数验证错误: [{'type': 'json_invalid', 'loc': ('body', 3), 'msg': 'JSON decode error', 'input': {}, 'ctx': {'error': "Expecting ':' delimiter"}}]
+参数验证错误: [{'type': 'json_invalid', 'loc': ('body', 1), 'msg': 'JSON decode error', 'input': {}, 'ctx': {'error': 'Expecting property name enclosed in double quotes'}}]
+WARNING:  WatchFiles detected changes in 'migrations\env.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [61368]
+WARNING:  WatchFiles detected changes in 'app\schemas\backoffice\admin.py', 'app\services\backoffice\admin.py', 'app\schemas\base.py', 'app\api\backoffice\v1\admin.py', 'app\route\route.py', 'migrations\env.py', 'app\schemas\paginator.py'. Reloading...
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "E:\python\Lib\multiprocessing\spawn.py", line 122, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\python\Lib\multiprocessing\spawn.py", line 131, in _main
+    prepare(preparation_data)
+  File "E:\python\Lib\multiprocessing\spawn.py", line 246, in prepare
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "E:\python\Lib\multiprocessing\spawn.py", line 297, in _fixup_main_from_path
+    main_content = runpy.run_path(main_path,
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen runpy>", line 287, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "E:\python源代码\ai-interview-agent-聂金鹏\main.py", line 1, in <module>
+    from app.route import create_app #导入路由文件
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\python源代码\ai-interview-agent-聂金鹏\app\route\__init__.py", line 1, in <module>
+    from app.route.route import create_app
+  File "E:\python源代码\ai-interview-agent-聂金鹏\app\route\route.py", line 8, in <module>
+    from app.db.base import close_db_engine
+  File "E:\python源代码\ai-interview-agent-聂金鹏\app\db\base.py", line 1, in <module>
+    from sqlalchemy.ext.asyncio import AsyncSession, create_async_engine, async_sessionmaker
+  File "E:\python\Lib\site-packages\sqlalchemy\__init__.py", line 12, in <module>
+    from . import util as _util
+  File "E:\python\Lib\site-packages\sqlalchemy\util\__init__.py", line 15, in <module>
+    from ._collections import coerce_generator_arg as coerce_generator_arg
+  File "E:\python\Lib\site-packages\sqlalchemy\util\_collections.py", line 38, in <module>
+    from ._has_cy import HAS_CYEXTENSION
+  File "E:\python\Lib\site-packages\sqlalchemy\util\_has_cy.py", line 32, in <module>
+    _import_cy_extensions()
+  File "E:\python\Lib\site-packages\sqlalchemy\util\_has_cy.py", line 20, in _import_cy_extensions
+    from ..cyextension import util
+  File "lib\\sqlalchemy\\cyextension\\util.pyx", line 9, in init sqlalchemy.cyextension.util
+  File "E:\python\Lib\site-packages\sqlalchemy\exc.py", line 26, in <module>
+    from .util import compat
+  File "E:\python\Lib\site-packages\sqlalchemy\util\compat.py", line 45, in <module>
+    arm = "aarch" in platform.machine().lower()
+                     ^^^^^^^^^^^^^^^^^^
+  File "E:\python\Lib\platform.py", line 1024, in machine
+    return uname().machine
+           ^^^^^^^
+  File "E:\python\Lib\platform.py", line 922, in uname
+    release, version, csd, ptype = win32_ver()
+                                   ^^^^^^^^^^^
+  File "E:\python\Lib\platform.py", line 450, in win32_ver
+    version, csd, ptype, is_client = _win32_ver(version, csd, ptype)
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\python\Lib\platform.py", line 388, in _win32_ver
+    (version, product_type, ptype, spmajor, spminor)  = _wmi_query(
+                                                        ^^^^^^^^^^^
+  File "E:\python\Lib\platform.py", line 327, in _wmi_query
+    data = _wmi.exec_query("SELECT {} FROM {}".format(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+INFO:     Started server process [34852]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'app\schemas\base.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [34852]
+WARNING:  WatchFiles detected changes in 'app\schemas\base.py'. Reloading...
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "E:\python\Lib\multiprocessing\spawn.py", line 122, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\python\Lib\multiprocessing\spawn.py", line 131, in _main
+    prepare(preparation_data)
+  File "E:\python\Lib\multiprocessing\spawn.py", line 246, in prepare
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "E:\python\Lib\multiprocessing\spawn.py", line 297, in _fixup_main_from_path
+    main_content = runpy.run_path(main_path,
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen runpy>", line 287, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "E:\python源代码\ai-interview-agent-聂金鹏\main.py", line 1, in <module>
+    from app.route import create_app #导入路由文件
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\python源代码\ai-interview-agent-聂金鹏\app\route\__init__.py", line 1, in <module>
+    from app.route.route import create_app
+  File "E:\python源代码\ai-interview-agent-聂金鹏\app\route\route.py", line 8, in <module>
+    from app.db.base import close_db_engine
+  File "E:\python源代码\ai-interview-agent-聂金鹏\app\db\base.py", line 1, in <module>
+    from sqlalchemy.ext.asyncio import AsyncSession, create_async_engine, async_sessionmaker
+  File "E:\python\Lib\site-packages\sqlalchemy\__init__.py", line 12, in <module>
+    from . import util as _util
+  File "E:\python\Lib\site-packages\sqlalchemy\util\__init__.py", line 15, in <module>
+    from ._collections import coerce_generator_arg as coerce_generator_arg
+  File "E:\python\Lib\site-packages\sqlalchemy\util\_collections.py", line 38, in <module>
+    from ._has_cy import HAS_CYEXTENSION
+  File "E:\python\Lib\site-packages\sqlalchemy\util\_has_cy.py", line 32, in <module>
+    _import_cy_extensions()
+  File "E:\python\Lib\site-packages\sqlalchemy\util\_has_cy.py", line 20, in _import_cy_extensions
+    from ..cyextension import util
+  File "lib\\sqlalchemy\\cyextension\\util.pyx", line 9, in init sqlalchemy.cyextension.util
+  File "E:\python\Lib\site-packages\sqlalchemy\exc.py", line 26, in <module>
+    from .util import compat
+  File "E:\python\Lib\site-packages\sqlalchemy\util\compat.py", line 45, in <module>
+    arm = "aarch" in platform.machine().lower()
+                     ^^^^^^^^^^^^^^^^^^
+  File "E:\python\Lib\platform.py", line 1024, in machine
+    return uname().machine
+           ^^^^^^^
+  File "E:\python\Lib\platform.py", line 922, in uname
+    release, version, csd, ptype = win32_ver()
+                                   ^^^^^^^^^^^
+  File "E:\python\Lib\platform.py", line 450, in win32_ver
+    version, csd, ptype, is_client = _win32_ver(version, csd, ptype)
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\python\Lib\platform.py", line 388, in _win32_ver
+    (version, product_type, ptype, spmajor, spminor)  = _wmi_query(
+                                                        ^^^^^^^^^^^
+  File "E:\python\Lib\platform.py", line 327, in _wmi_query
+    data = _wmi.exec_query("SELECT {} FROM {}".format(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+INFO:     Started server process [60796]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'app\schemas\paginator.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [60796]
+WARNING:  WatchFiles detected changes in 'app\schemas\paginator.py'. Reloading...
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "E:\python\Lib\multiprocessing\spawn.py", line 122, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\python\Lib\multiprocessing\spawn.py", line 131, in _main
+    prepare(preparation_data)
+  File "E:\python\Lib\multiprocessing\spawn.py", line 246, in prepare
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "E:\python\Lib\multiprocessing\spawn.py", line 297, in _fixup_main_from_path
+    main_content = runpy.run_path(main_path,
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen runpy>", line 287, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "E:\python源代码\ai-interview-agent-聂金鹏\main.py", line 1, in <module>
+    from app.route import create_app #导入路由文件
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\python源代码\ai-interview-agent-聂金鹏\app\route\__init__.py", line 1, in <module>
+    from app.route.route import create_app
+  File "E:\python源代码\ai-interview-agent-聂金鹏\app\route\route.py", line 8, in <module>
+    from app.db.base import close_db_engine
+  File "E:\python源代码\ai-interview-agent-聂金鹏\app\db\base.py", line 1, in <module>
+    from sqlalchemy.ext.asyncio import AsyncSession, create_async_engine, async_sessionmaker
+  File "E:\python\Lib\site-packages\sqlalchemy\__init__.py", line 12, in <module>
+    from . import util as _util
+  File "E:\python\Lib\site-packages\sqlalchemy\util\__init__.py", line 15, in <module>
+    from ._collections import coerce_generator_arg as coerce_generator_arg
+  File "E:\python\Lib\site-packages\sqlalchemy\util\_collections.py", line 38, in <module>
+    from ._has_cy import HAS_CYEXTENSION
+  File "E:\python\Lib\site-packages\sqlalchemy\util\_has_cy.py", line 32, in <module>
+    _import_cy_extensions()
+  File "E:\python\Lib\site-packages\sqlalchemy\util\_has_cy.py", line 20, in _import_cy_extensions
+    from ..cyextension import util
+  File "lib\\sqlalchemy\\cyextension\\util.pyx", line 9, in init sqlalchemy.cyextension.util
+  File "E:\python\Lib\site-packages\sqlalchemy\exc.py", line 26, in <module>
+    from .util import compat
+  File "E:\python\Lib\site-packages\sqlalchemy\util\compat.py", line 45, in <module>
+    arm = "aarch" in platform.machine().lower()
+                     ^^^^^^^^^^^^^^^^^^
+  File "E:\python\Lib\platform.py", line 1024, in machine
+    return uname().machine
+           ^^^^^^^
+  File "E:\python\Lib\platform.py", line 922, in uname
+    release, version, csd, ptype = win32_ver()
+                                   ^^^^^^^^^^^
+  File "E:\python\Lib\platform.py", line 450, in win32_ver
+    version, csd, ptype, is_client = _win32_ver(version, csd, ptype)
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\python\Lib\platform.py", line 388, in _win32_ver
+    (version, product_type, ptype, spmajor, spminor)  = _wmi_query(
+                                                        ^^^^^^^^^^^
+  File "E:\python\Lib\platform.py", line 327, in _wmi_query
+    data = _wmi.exec_query("SELECT {} FROM {}".format(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+INFO:     Started server process [55720]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'app\schemas\paginator.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [55720]
+INFO:     Started server process [72156]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.

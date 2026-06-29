@@ -1,0 +1,112 @@
+2026-06-29 09:27:17,552 INFO sqlalchemy.engine.Engine select pg_catalog.version()
+2026-06-29 09:27:17,554 INFO sqlalchemy.engine.Engine [raw sql] ()
+2026-06-29 09:27:17,555 INFO sqlalchemy.engine.Engine select current_schema()
+2026-06-29 09:27:17,555 INFO sqlalchemy.engine.Engine [raw sql] ()
+2026-06-29 09:27:17,556 INFO sqlalchemy.engine.Engine show standard_conforming_strings
+2026-06-29 09:27:17,556 INFO sqlalchemy.engine.Engine [raw sql] ()
+2026-06-29 09:27:17,557 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2026-06-29 09:27:17,560 INFO sqlalchemy.engine.Engine SELECT admins.id, admins.role, admins.email, admins.first_name, admins.last_name, admins.password, admins.is_active, admins.created_at, admins.updated_at 
+FROM admins 
+WHERE admins.email = $1::VARCHAR
+2026-06-29 09:27:17,561 INFO sqlalchemy.engine.Engine [generated in 0.00031s] ('admin@ai-interview.com',)
+2026-06-29 09:27:17,806 INFO sqlalchemy.engine.Engine ROLLBACK
+INFO:     127.0.0.1:62621 - "POST /api/v1/backoffice/auth/login HTTP/1.1" 400 Bad Request
+2026-06-29 09:27:33,063 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2026-06-29 09:27:33,065 INFO sqlalchemy.engine.Engine SELECT admins.id, admins.role, admins.email, admins.first_name, admins.last_name, admins.password, admins.is_active, admins.created_at, admins.updated_at 
+FROM admins 
+WHERE admins.email = $1::VARCHAR
+2026-06-29 09:27:33,065 INFO sqlalchemy.engine.Engine [cached since 15.51s ago] ('admin@ai-interview.com',)
+2026-06-29 09:27:33,262 INFO sqlalchemy.engine.Engine ROLLBACK
+INFO:     127.0.0.1:57492 - "POST /api/v1/backoffice/auth/login HTTP/1.1" 400 Bad Request
+2026-06-29 09:27:33,321 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2026-06-29 09:27:33,321 INFO sqlalchemy.engine.Engine SELECT admins.id, admins.role, admins.email, admins.first_name, admins.last_name, admins.password, admins.is_active, admins.created_at, admins.updated_at 
+FROM admins 
+WHERE admins.email = $1::VARCHAR
+2026-06-29 09:27:33,321 INFO sqlalchemy.engine.Engine [cached since 15.76s ago] ('admin@ai-interview.com',)
+2026-06-29 09:27:33,517 INFO sqlalchemy.engine.Engine ROLLBACK
+INFO:     127.0.0.1:57492 - "POST /api/v1/backoffice/auth/login HTTP/1.1" 400 Bad Request
+2026-06-29 09:27:33,523 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2026-06-29 09:27:33,523 INFO sqlalchemy.engine.Engine SELECT admins.id, admins.role, admins.email, admins.first_name, admins.last_name, admins.password, admins.is_active, admins.created_at, admins.updated_at 
+FROM admins 
+WHERE admins.email = $1::VARCHAR
+2026-06-29 09:27:33,524 INFO sqlalchemy.engine.Engine [cached since 15.96s ago] ('admin@ai-interview.com',)
+2026-06-29 09:27:33,719 INFO sqlalchemy.engine.Engine ROLLBACK
+INFO:     127.0.0.1:57492 - "POST /api/v1/backoffice/auth/login HTTP/1.1" 400 Bad Request
+2026-06-29 09:27:33,726 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2026-06-29 09:27:33,727 INFO sqlalchemy.engine.Engine SELECT admins.id, admins.role, admins.email, admins.first_name, admins.last_name, admins.password, admins.is_active, admins.created_at, admins.updated_at 
+FROM admins 
+WHERE admins.email = $1::VARCHAR
+2026-06-29 09:27:33,727 INFO sqlalchemy.engine.Engine [cached since 16.17s ago] ('admin@ai-interview.com',)
+2026-06-29 09:27:33,924 INFO sqlalchemy.engine.Engine ROLLBACK
+INFO:     127.0.0.1:57492 - "POST /api/v1/backoffice/auth/login HTTP/1.1" 400 Bad Request
+2026-06-29 09:27:33,930 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2026-06-29 09:27:33,930 INFO sqlalchemy.engine.Engine SELECT admins.id, admins.role, admins.email, admins.first_name, admins.last_name, admins.password, admins.is_active, admins.created_at, admins.updated_at 
+FROM admins 
+WHERE admins.email = $1::VARCHAR
+2026-06-29 09:27:33,930 INFO sqlalchemy.engine.Engine [cached since 16.37s ago] ('admin@ai-interview.com',)
+2026-06-29 09:27:34,128 INFO sqlalchemy.engine.Engine ROLLBACK
+INFO:     127.0.0.1:57492 - "POST /api/v1/backoffice/auth/login HTTP/1.1" 400 Bad Request
+2026-06-29 09:27:34,134 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2026-06-29 09:27:34,135 INFO sqlalchemy.engine.Engine SELECT admins.id, admins.role, admins.email, admins.first_name, admins.last_name, admins.password, admins.is_active, admins.created_at, admins.updated_at 
+FROM admins 
+WHERE admins.email = $1::VARCHAR
+2026-06-29 09:27:34,135 INFO sqlalchemy.engine.Engine [cached since 16.57s ago] ('admin@ai-interview.com',)
+2026-06-29 09:27:34,333 INFO sqlalchemy.engine.Engine ROLLBACK
+INFO:     127.0.0.1:57492 - "POST /api/v1/backoffice/auth/login HTTP/1.1" 400 Bad Request
+2026-06-29 09:27:56,512 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2026-06-29 09:27:56,514 INFO sqlalchemy.engine.Engine SELECT admins.id, admins.role, admins.email, admins.first_name, admins.last_name, admins.password, admins.is_active, admins.created_at, admins.updated_at 
+FROM admins 
+WHERE admins.email = $1::VARCHAR
+2026-06-29 09:27:56,514 INFO sqlalchemy.engine.Engine [cached since 38.95s ago] ('admin@ai-interview.com',)
+2026-06-29 09:27:56,715 INFO sqlalchemy.engine.Engine UPDATE admin_tokens SET last_used_at=now(), is_active=$1::BOOLEAN, updated_at=now() WHERE admin_tokens.admin_id = $2::INTEGER AND admin_tokens.is_active = true
+2026-06-29 09:27:56,715 INFO sqlalchemy.engine.Engine [generated in 0.00046s] (False, 1)
+2026-06-29 09:27:56,924 INFO sqlalchemy.engine.Engine INSERT INTO admin_tokens (admin_id, token, expires_at, last_used_at, is_active) VALUES ($1::INTEGER, $2::VARCHAR, $3::TIMESTAMP WITH TIME ZONE, now(), $4::BOOLEAN) RETURNING admin_tokens.id, admin_tokens.last_used_at, admin_tokens.created_at, admin_tokens.updated_at
+2026-06-29 09:27:56,925 INFO sqlalchemy.engine.Engine [generated in 0.00132s] (1, '$2b$12$tibDHbmAfsbSOsJRNDwqb.NgvU/f1yUu6Q1J5LFyba8LGWzDnoGZG', datetime.datetime(2026, 7, 6, 1, 27, 56, 922521, tzinfo=datetime.timezone.utc), True)
+2026-06-29 09:27:56,931 INFO sqlalchemy.engine.Engine COMMIT
+INFO:     127.0.0.1:54922 - "POST /api/v1/backoffice/auth/login HTTP/1.1" 200 OK
+2026-06-29 09:28:14,832 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2026-06-29 09:28:14,833 INFO sqlalchemy.engine.Engine SELECT admins.id, admins.role, admins.email, admins.first_name, admins.last_name, admins.password, admins.is_active, admins.created_at, admins.updated_at 
+FROM admins 
+WHERE admins.email = $1::VARCHAR
+2026-06-29 09:28:14,833 INFO sqlalchemy.engine.Engine [cached since 57.27s ago] ('admin@ai-interview.com',)
+2026-06-29 09:28:15,028 INFO sqlalchemy.engine.Engine UPDATE admin_tokens SET last_used_at=now(), is_active=$1::BOOLEAN, updated_at=now() WHERE admin_tokens.admin_id = $2::INTEGER AND admin_tokens.is_active = true
+2026-06-29 09:28:15,030 INFO sqlalchemy.engine.Engine [cached since 18.31s ago] (False, 1)
+2026-06-29 09:28:15,226 INFO sqlalchemy.engine.Engine INSERT INTO admin_tokens (admin_id, token, expires_at, last_used_at, is_active) VALUES ($1::INTEGER, $2::VARCHAR, $3::TIMESTAMP WITH TIME ZONE, now(), $4::BOOLEAN) RETURNING admin_tokens.id, admin_tokens.last_used_at, admin_tokens.created_at, admin_tokens.updated_at
+2026-06-29 09:28:15,228 INFO sqlalchemy.engine.Engine [cached since 18.3s ago] (1, '$2b$12$ycFUzr8oveGPucmPWh3vX.8jAQTf0rhMcL3Kl1vdMrZILE7PaEgam', datetime.datetime(2026, 7, 6, 1, 28, 15, 225849, tzinfo=datetime.timezone.utc), True)
+2026-06-29 09:28:15,229 INFO sqlalchemy.engine.Engine COMMIT
+INFO:     127.0.0.1:64436 - "POST /api/v1/backoffice/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59314 - "POST /api/v1/backoffice/auth/login HTTP/1.1" 400 Bad Request
+2026-06-29 09:28:44,383 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2026-06-29 09:28:44,384 INFO sqlalchemy.engine.Engine SELECT admins.id, admins.role, admins.email, admins.first_name, admins.last_name, admins.password, admins.is_active, admins.created_at, admins.updated_at 
+FROM admins 
+WHERE admins.email = $1::VARCHAR
+2026-06-29 09:28:44,385 INFO sqlalchemy.engine.Engine [cached since 86.82s ago] ('admin@ai-interview.com',)
+2026-06-29 09:28:44,581 INFO sqlalchemy.engine.Engine UPDATE admin_tokens SET last_used_at=now(), is_active=$1::BOOLEAN, updated_at=now() WHERE admin_tokens.admin_id = $2::INTEGER AND admin_tokens.is_active = true
+2026-06-29 09:28:44,583 INFO sqlalchemy.engine.Engine [cached since 47.87s ago] (False, 1)
+2026-06-29 09:28:44,785 INFO sqlalchemy.engine.Engine INSERT INTO admin_tokens (admin_id, token, expires_at, last_used_at, is_active) VALUES ($1::INTEGER, $2::VARCHAR, $3::TIMESTAMP WITH TIME ZONE, now(), $4::BOOLEAN) RETURNING admin_tokens.id, admin_tokens.last_used_at, admin_tokens.created_at, admin_tokens.updated_at
+2026-06-29 09:28:44,785 INFO sqlalchemy.engine.Engine [cached since 47.86s ago] (1, '$2b$12$2zxp9zo6u0mwvdtTablvV.dLnkjSKvnLK1DDAK7mVVuVyR3s4Ws7u', datetime.datetime(2026, 7, 6, 1, 28, 44, 785956, tzinfo=datetime.timezone.utc), True)
+2026-06-29 09:28:44,786 INFO sqlalchemy.engine.Engine COMMIT
+INFO:     127.0.0.1:55637 - "POST /api/v1/backoffice/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62844 - "POST /api/v1/backoffice/auth/login HTTP/1.1" 400 Bad Request
+2026-06-29 09:29:10,605 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2026-06-29 09:29:10,605 INFO sqlalchemy.engine.Engine SELECT admins.id, admins.role, admins.email, admins.first_name, admins.last_name, admins.password, admins.is_active, admins.created_at, admins.updated_at 
+FROM admins 
+WHERE admins.email = $1::VARCHAR
+2026-06-29 09:29:10,605 INFO sqlalchemy.engine.Engine [cached since 113s ago] ('admin@ai-interview.com',)
+2026-06-29 09:29:10,801 INFO sqlalchemy.engine.Engine UPDATE admin_tokens SET last_used_at=now(), is_active=$1::BOOLEAN, updated_at=now() WHERE admin_tokens.admin_id = $2::INTEGER AND admin_tokens.is_active = true
+2026-06-29 09:29:10,803 INFO sqlalchemy.engine.Engine [cached since 74.09s ago] (False, 1)
+2026-06-29 09:29:11,002 INFO sqlalchemy.engine.Engine INSERT INTO admin_tokens (admin_id, token, expires_at, last_used_at, is_active) VALUES ($1::INTEGER, $2::VARCHAR, $3::TIMESTAMP WITH TIME ZONE, now(), $4::BOOLEAN) RETURNING admin_tokens.id, admin_tokens.last_used_at, admin_tokens.created_at, admin_tokens.updated_at
+2026-06-29 09:29:11,002 INFO sqlalchemy.engine.Engine [cached since 74.08s ago] (1, '$2b$12$IPw/.R9/17fnhKF4B7Y95.xFCl7UvB3gSDmRWQz5Z09afPKwWnvyy', datetime.datetime(2026, 7, 6, 1, 29, 11, 1823, tzinfo=datetime.timezone.utc), True)
+2026-06-29 09:29:11,003 INFO sqlalchemy.engine.Engine COMMIT
+INFO:     127.0.0.1:57611 - "POST /api/v1/backoffice/auth/login HTTP/1.1" 200 OK
+2026-06-29 09:44:00,942 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2026-06-29 09:44:00,946 INFO sqlalchemy.engine.Engine SELECT admins.id, admins.role, admins.email, admins.first_name, admins.last_name, admins.password, admins.is_active, admins.created_at, admins.updated_at 
+FROM admins 
+WHERE admins.email = $1::VARCHAR
+2026-06-29 09:44:00,946 INFO sqlalchemy.engine.Engine [cached since 1003s ago] ('admin@ai-interview.com',)
+2026-06-29 09:44:01,221 INFO sqlalchemy.engine.Engine UPDATE admin_tokens SET last_used_at=now(), is_active=$1::BOOLEAN, updated_at=now() WHERE admin_tokens.admin_id = $2::INTEGER AND admin_tokens.is_active = true
+2026-06-29 09:44:01,222 INFO sqlalchemy.engine.Engine [cached since 964.5s ago] (False, 1)
+2026-06-29 09:44:01,503 INFO sqlalchemy.engine.Engine INSERT INTO admin_tokens (admin_id, token, expires_at, last_used_at, is_active) VALUES ($1::INTEGER, $2::VARCHAR, $3::TIMESTAMP WITH TIME ZONE, now(), $4::BOOLEAN) RETURNING admin_tokens.id, admin_tokens.last_used_at, admin_tokens.created_at, admin_tokens.updated_at
+2026-06-29 09:44:01,504 INFO sqlalchemy.engine.Engine [cached since 964.6s ago] (1, '$2b$12$ONAB1IV4bUVWwdJL/LGaC.9TshmY8CpNKpfSToC2EA61hq71zxNEy', datetime.datetime(2026, 7, 6, 1, 44, 1, 503880, tzinfo=datetime.timezone.utc), True)
+2026-06-29 09:44:01,506 INFO sqlalchemy.engine.Engine COMMIT
+INFO:     127.0.0.1:57341 - "POST /api/v1/backoffice/auth/login HTTP/1.1" 200 OK
